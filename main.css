@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Nunito+Sans:wght@900&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo {
+  font-family: 'Montserrat', sans-serif, 'Nunito Sans', 'Roboto';
+  color: #00bebe;
+  font-size: 30px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+}
+
+header nav ul li {
+  padding: 10px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+                          /* ----------------------------------------------- */
+
+
+  .sign-up-section {
+    height: 625px;
+    width: 600px;
+    padding: 25px;
+    background-color: rgb(220, 220, 220);
+    z-index: 1;
+    margin: 0 28%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 35px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.container h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#remember-me {
+    font-weight: 100;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    color: white;
+}
+
+.cancel-btn {
+    height: 45px;
+    width: 250px;
+    background-color: rgb(255, 43, 43);
+}
+
+.sign-up-btn {
+    height: 45px;
+    width: 250px;
+    background-color: rgb(31, 191, 31);
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: green;
+}
